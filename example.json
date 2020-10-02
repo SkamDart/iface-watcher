@@ -1,0 +1,6 @@
+{
+  "loopback": "lo",
+  "wifi": "wlp2s0",
+  "reproducibility_at_home": "docker0",
+  "ethernet": "enx00e04c6825d3"
+}

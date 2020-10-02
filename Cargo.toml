@@ -1,0 +1,10 @@
+[package]
+name = "iface-reporter"
+version = "0.1.0"
+authors = ["Cameron Dart <cdart2@illinois.edu>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.1"
+dogstatsd = "0.6.1"
+serde_json = "1.0.56"
