@@ -128,10 +128,10 @@ fn create_report(filename: String, prefix: String) -> io::Result<Vec<Interface>>
 }
 
 fn main() -> io::Result<()> {
-    let matches = App::new("ethwatch")
+    let matches = App::new("iface-reporter")
         .setting(AppSettings::ArgRequiredElseHelp)
         .version("0.0.1")
-        .author("Cameron Dart <cdart@anduril.com>")
+        .author("Cameron Dart <cdart2@illinois.edu")
         .about("Publishes /sys/class/net/<iface> metrics to datadog")
         .arg(Arg::with_name("filename").index(1).required(true).help(
             "json file containing a set of key-value pairs of clean name to interface to watch",
